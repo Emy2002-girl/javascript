@@ -5,7 +5,7 @@ function handleString(recipe){
     <h2 class="product-title">${name}</h2>
     <p class="product-description">cusisne Type : ${cuisine}</p>
     `
-}
+} 
 function handleNumbers(recipe){
     const rating =recipe.rating*2;
     const cookTime =recipe.cookTimeMinutes/60;
